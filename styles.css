@@ -28,6 +28,7 @@ div #positioning {
     animation-name: start-red;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes start-red { /* Bubble1 */
@@ -83,6 +84,7 @@ div #positioning {
     animation-name: start-orange;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes start-orange { /* Bubble2 */
@@ -138,6 +140,7 @@ div #positioning {
     animation-name: start-yellow;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes start-yellow { /* Bubble3 */
@@ -193,6 +196,7 @@ div #positioning {
     animation-name: start-limegreen;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes start-limegreen { /* Bubble4 */
@@ -248,6 +252,7 @@ div #positioning {
     animation-name: start-green;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes start-green { /* Bubble5 */
@@ -303,6 +308,7 @@ div #positioning {
     animation-name: start-teal;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes start-teal { /* Bubble6 */
@@ -358,6 +364,7 @@ div #positioning {
     animation-name: start-blue;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes start-blue { /* Bubble7 */
@@ -413,6 +420,7 @@ div #positioning {
     animation-name: start-indigo;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes start-indigo { /* Bubble8 */
@@ -468,6 +476,7 @@ div #positioning {
     animation-name: start-purple;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes start-purple { /* Bubble9 */
@@ -523,6 +532,7 @@ div #positioning {
     animation-name: start-violet;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes start-violet { /* Bubble10 */
