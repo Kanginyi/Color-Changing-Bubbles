@@ -1,0 +1,573 @@
+body {
+    background: linear-gradient(90deg, #CCFFFF, #FFCCCC), #CCFFFF;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Rampart One", cursive;
+    font-size: 40px;
+}
+
+div #positioning {
+    position: absolute;
+    margin: auto;
+}
+
+.ball {
+    height: 75px;
+    width: 75px;
+    background: transparent;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+#Bubble1 { 
+    position: relative;
+    left: 100px;
+    animation-name: start-red;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes start-red { /* Bubble1 */
+    0% {
+        background-color: red;
+        top: 0px;
+    }
+    10% {
+        background-color: orange;
+        top: 150px;
+    }
+    20% {
+        background-color: yellow;
+        top: 300px;
+    }
+    30% {
+        background-color: limegreen;
+        top: 450px;
+    }
+    40% {
+        background-color: green;
+        top: 600px;
+    }
+    50% {
+        background-color: teal;
+        top: 750px;
+    }
+    60% {
+        background-color: blue;
+        top: 600px;
+    }
+    70% {
+        background-color: indigo;
+        top: 450px;
+    }
+    80% {
+        background-color: purple;
+        top: 300px;
+    }
+    90% {
+        background-color: violet;
+        top: 150px;
+    }
+    100% {
+        background-color: #FB213C;
+        top: 0px;
+    }
+}
+
+#Bubble2 {
+    position: relative;
+    left: 275px;
+    animation-name: start-orange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes start-orange { /* Bubble2 */
+    0% {
+        background-color: orange;
+        top: 0px;
+    }
+    10% {
+        background-color: yellow;
+        top: 150px;
+    }
+    20% {
+        background-color: limegreen;
+        top: 300px;
+    }
+    30% {
+        background-color: green;
+        top: 450px;
+    }
+    40% {
+        background-color: teal;
+        top: 600px;
+    }
+    50% {
+        background-color: blue;
+        top: 450px;
+    }
+    60% {
+        background-color: indigo;
+        top: 300px;
+    }
+    70% {
+        background-color: purple;
+        top: 150px;
+    }
+    80% {
+        background-color: violet;
+        top: 0px;
+    }
+    90% {
+        background-color: #FB213C;
+        top: -150px;
+    }
+    100% {
+        background-color: red;
+        top: 0px;
+    }
+}
+
+#Bubble3 {
+    position: relative;
+    left: 450px;
+    animation-name: start-yellow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes start-yellow { /* Bubble3 */
+    0% {
+        background-color: yellow;
+        top: 0px;
+    }
+    10% {
+        background-color: limegreen;
+        top: 150px;
+    }
+    20% {
+        background-color: green;
+        top: 300px;
+    }
+    30% {
+        background-color: teal;
+        top: 450px;
+    }
+    40% {
+        background-color: blue;
+        top: 600px;
+    }
+    50% {
+        background-color: indigo;
+        top: 450px;
+    }
+    60% {
+        background-color: purple;
+        top: 300px;
+    }
+    70% {
+        background-color: violet;
+        top: 150px;
+    }
+    80% {
+        background-color: #FB213C;
+        top: 0px;
+    }
+    90% {
+        background-color: red;
+        top: -150px;
+    }
+    100% {
+        background-color: orange;
+        top: 0px;
+    }
+}
+
+#Bubble4 {
+    position: relative;
+    left: 625px;
+    animation-name: start-limegreen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes start-limegreen { /* Bubble4 */
+    0% {
+        background-color: limegreen;
+        top: 0px;
+    }
+    10% {
+        background-color: green;
+        top: 150px;
+    }
+    20% {
+        background-color: teal;
+        top: 300px;
+    }
+    30% {
+        background-color: blue;
+        top: 450px;
+    }
+    40% {
+        background-color: indigo;
+        top: 300px;
+    }
+    50% {
+        background-color: purple;
+        top: 150px;
+    }
+    60% {
+        background-color: violet;
+        top: 0px;
+    }
+    70% {
+        background-color: #FB213C;
+        top: -150px;
+    }
+    80% {
+        background-color: red;
+        top: -300px;
+    }
+    90% {
+        background-color: orange;
+        top: -150px;
+    }
+    100% {
+        background-color: yellow;
+        top: 0px;
+    }
+}
+
+#Bubble5 {
+    position: relative;
+    left: 800px;
+    animation-name: start-green;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes start-green { /* Bubble5 */
+    0% {
+        background-color: green;
+        top: 0px;
+    }
+    10% {
+        background-color: teal;
+        top: 150px;
+    }
+    20% {
+        background-color: blue;
+        top: 300px;
+    }
+    30% {
+        background-color: indigo;
+        top: 450px;
+    }
+    40% {
+        background-color: purple;
+        top: 300px;
+    }
+    50% {
+        background-color: violet;
+        top: 150px;
+    }
+    60% {
+        background-color: #FB213C;
+        top: 0px;
+    }
+    70% {
+        background-color: red;
+        top: -150px;
+    }
+    80% {
+        background-color: orange;
+        top: -300px;
+    }
+    90% {
+        background-color: yellow;
+        top: -150px;
+    }
+    100% {
+        background-color: limegreen;
+        top: 0px;
+    }
+}
+
+#Bubble6 {
+    position: relative;
+    left: 975px;
+    animation-name: start-teal;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes start-teal { /* Bubble6 */
+    0% {
+        background-color: teal;
+        top: 0px;
+    }
+    10% {
+        background-color: blue;
+        top: 150px;
+    }
+    20% {
+        background-color: indigo;
+        top: 300px;
+    }
+    30% {
+        background-color: purple;
+        top: 150px;
+    }
+    40% {
+        background-color: violet;
+        top: 0px;
+    }
+    50% {
+        background-color: #FB213C;
+        top: -150px;
+    }
+    60% {
+        background-color: red;
+        top: -300px;
+    }
+    70% {
+        background-color: orange;
+        top: -450px;
+    }
+    80% {
+        background-color: yellow;
+        top: -300px;
+    }
+    90% {
+        background-color: limegreen;
+        top: -150px;
+    }
+    100% {
+        background-color: green;
+        top: 0px;
+    }
+}
+
+#Bubble7 {
+    position: relative;
+    left: 1150px;
+    animation-name: start-blue;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes start-blue { /* Bubble7 */
+    0% {
+        background-color: blue;
+        top: 0px;
+    }
+    10% {
+        background-color: indigo;
+        top: 150px;
+    }
+    20% {
+        background-color: purple;
+        top: 300px;
+    }
+    30% {
+        background-color: violet;
+        top: 150px;
+    }
+    40% {
+        background-color: #FB213C;
+        top: 0px;
+    }
+    50% {
+        background-color: red;
+        top: -150px;
+    }
+    60% {
+        background-color: orange;
+        top: -300px;
+    }
+    70% {
+        background-color: yellow;
+        top: -450px;
+    }
+    80% {
+        background-color: limegreen;
+        top: -300px;
+    }
+    90% {
+        background-color: green;
+        top: -150px;
+    }
+    100% {
+        background-color: teal;
+        top: 0px;
+    }
+}
+
+#Bubble8 {
+    position: relative;
+    left: 1325px;
+    animation-name: start-indigo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes start-indigo { /* Bubble8 */
+    0% {
+        background-color: indigo;
+        top: 0px;
+    }
+    10% {
+        background-color: purple;
+        top: 150px;
+    }
+    20% {
+        background-color: violet;
+        top: 0px;
+    }
+    30% {
+        background-color: #FB213C;
+        top: -150px;
+    }
+    40% {
+        background-color: red;
+        top: -300px;
+    }
+    50% {
+        background-color: orange;
+        top: -450px;
+    }
+    60% {
+        background-color: yellow;
+        top: -600px;
+    }
+    70% {
+        background-color: limegreen;
+        top: -450px;
+    }
+    80% {
+        background-color: green;
+        top: -300px;
+    }
+    90% {
+        background-color: teal;
+        top: -150px;
+    }
+    100% {
+        background-color: blue;
+        top: 0px;
+    }
+}
+
+#Bubble9 {
+    position: relative;
+    left: 1500px;
+    animation-name: start-purple;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes start-purple { /* Bubble9 */
+    0% {
+        background-color: purple;
+        top: 0px;
+    }
+    10% {
+        background-color: violet;
+        top: 150px;
+    }
+    20% {
+        background-color: #FB213C;
+        top: 0px;
+    }
+    30% {
+        background-color: red;
+        top: -150px;
+    }
+    40% {
+        background-color: orange;
+        top: -300px;
+    }
+    50% {
+        background-color: yellow;
+        top: -450px;
+    }
+    60% {
+        background-color: limegreen;
+        top: -600px;
+    }
+    70% {
+        background-color: green;
+        top: -450px;
+    }
+    80% {
+        background-color: teal;
+        top: -300px;
+    }
+    90% {
+        background-color: blue;
+        top: -150px;
+    }
+    100% {
+        background-color: indigo;
+        top: 0px;
+    }
+}
+
+#Bubble10 {
+    position: relative;
+    left: 1675px;
+    animation-name: start-violet;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes start-violet { /* Bubble10 */
+    0% {
+        background-color: violet;
+        top: 0px;
+    }
+    10% {
+        background-color: #FB213C;
+        top: -150px;
+    }
+    20% {
+        background-color: red;
+        top: -300px;
+    }
+    30% {
+        background-color: orange;
+        top: -450px;
+    }
+    40% {
+        background-color: yellow;
+        top: -600px;
+    }
+    50% {
+        background-color: limegreen;
+        top: -750px;
+    }
+    60% {
+        background-color: green;
+        top: -600px;
+    }
+    70% {
+        background-color: teal;
+        top: -450px;
+    }
+    80% {
+        background-color: blue;
+        top: -300px;
+    }
+    90% {
+        background-color: indigo;
+        top: -150px;
+    }
+    100% {
+        background-color: purple;
+        top: 0px;
+    }
+}
