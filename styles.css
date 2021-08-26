@@ -581,3 +581,7 @@ div #positioning {
         top: 0px;
     }
 }
+
+div.ball:hover {
+    animation-play-state: paused;
+}
